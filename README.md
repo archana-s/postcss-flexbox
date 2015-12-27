@@ -5,7 +5,7 @@ PostCSS Flexbox provides an easy to use option for using CSS3 Flexbox layouts. T
 
 ## Usage
 ### Horizontal box
-   .horizontal-box {
+    .horizontal-box {
       box: 'horizontal';
     }
 ![Alt text](./snapshots/snapshot1.png "Horizontal Box")
