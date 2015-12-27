@@ -1,0 +1,18 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "Flexbox layouts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flexbox",
+    "layout"
+  ],
+  "author": "Archana Sankaranarayanan",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.13"
+  }
+}
