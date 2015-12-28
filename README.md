@@ -5,11 +5,12 @@ PostCSS Flexbox provides an easy to use option for using CSS3 Flexbox layouts. T
 npm install postcss-flexbox
 
 ## Usage
-CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works. [Here is a detailed blogpost I wrote on building using Flexbox](https://tech.coursera.org/blog/2015/06/23/flexbox-at-work/)
+CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works. [Here is a detailed blogpost I wrote on building using Flexbox in Coursera's tech blog](https://tech.coursera.org/blog/2015/06/23/flexbox-at-work/)
 
 postcss-flexbox offers 2 props to set on a selector:
 
 1. box : This is to make a HTML element a flexbox
+   Below are the values it can take. Please provide these values separated by a empty space.
    One of the following options is necessary to specify the direction of laying things out:
    1. horizontal
    2. horizontal-reverse
@@ -28,8 +29,8 @@ postcss-flexbox offers 2 props to set on a selector:
    9. wrap
    10. wrap-reverse
 
-2. box-item : This is to align or adjust size of elements within a flexbox
-   Here are the list of options:
+2. box-item : This is to align or adjust size of elements within a flexbox.
+   Here are the list of options. Please specify them with a space between.
    1. top
    2. bottom
    3. right
