@@ -2,10 +2,10 @@
 PostCSS Flexbox provides an easy to use option for using CSS3 Flexbox layouts. This is supported by IE 10+ and all evergreen browsers.
 
 ## Installation
-<yet to fill>
+npm install postcss-flexbox
 
 ## Usage
-CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works.
+CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works. [Here is a detailed blogpost I wrote on building using Flexbox](https://tech.coursera.org/blog/2015/06/23/flexbox-at-work/)
 
 postcss-flexbox offers 2 props to set on a selector:
 
@@ -136,6 +136,5 @@ postcss-flexbox offers 2 props to set on a selector:
     }
 ![Vertical Box with one fullbleed item](https://lh3.googleusercontent.com/-iO2WxZJB7tQ/VoCr3py-M_I/AAAAAAAAOyY/MJ0CNj0ogYQ/s512-Ic42/snapshot11.png "Vertical box with fullbleed item")
 
-## Contributing
 ## [Changelog] (./CHANGELOG.md "Changelog")
 ## [License](./LICENSE "License")
