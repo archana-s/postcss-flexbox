@@ -1,0 +1,11 @@
+.horizontal-box-items-centered {
+  box: vertical;
+}
+
+.box2 {
+  box: horizontal wrap bottom badvalue;
+}
+
+.second {
+  box-item: stretch;
+}

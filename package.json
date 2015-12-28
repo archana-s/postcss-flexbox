@@ -4,8 +4,9 @@
   "description": "Flexbox layouts made easy with PostCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava && eslint *.js"
   },
+  "repository": "https://github.com/archana-s/postcss-flexbox.git",
   "keywords": [
     "flexbox",
     "layouts",
@@ -15,5 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "postcss": "^5.0.13"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "eslint": "^1.10.3"
   }
 }
