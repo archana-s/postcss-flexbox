@@ -43,19 +43,19 @@ postcss-flexbox offers 2 props to set on a selector:
     .horizontal-box {
       box: 'horizontal';
     }
-![Alt text](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154362444141026 "Horizontal Box")
+[HorizontalBox](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154362444141026 "Horizontal Box")
 
 ## Horizontal box + items centered
     .horizontal-box.align-items-center {
        box: 'horizontal center';
     }
-![Alt text](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154376601549874 "Horizontal Box Items Centered")
+[Horizontal Box Items Centered](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154376601549874 "Horizontal Box Items Centered")
 
 ## Horizontal box + items centered at the bottom
     .horizontal-box.align-items-bottom-center {
        box: 'horizontal bottom center';
     }
-![Alt text](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154385448014018 "Horizontal Box Items Centered at Bottom")
+[Horizontal Box Items Centered at Bottom](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154385448014018 "Horizontal Box Items Centered at Bottom")
 
 ## Contributing
 ## Changelog
