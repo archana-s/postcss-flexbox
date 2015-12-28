@@ -2,11 +2,12 @@ var postcss = require('postcss');
 var layouts = require('./flexbox-configs.js');
 
 var appendProps = function(name, rule) {
-  var props = layouts[name];
-  for (var i=0; i<props.length; i++) {
-    var prop = props[i].split(':')[0].trim();
-    var value = props[i].split(':')[1].trim();
-    rule.append(props[i]);
+  // check if the property exists in the configs
+  if (layouts.hasOwnProperty(name)) {
+    var props = layouts[name];
+    for (var i=0; i<props.length; i++) {
+      rule.append(props[i]);
+    }
   }
 };
 
