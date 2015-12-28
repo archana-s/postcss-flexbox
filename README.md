@@ -43,19 +43,19 @@ postcss-flexbox offers 2 props to set on a selector:
     .horizontal-box {
       box: 'horizontal';
     }
-[HorizontalBox](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154362444141026 "Horizontal Box")
+![HorizontalBox](https://lh3.googleusercontent.com/-aSnIdPAty78/VoCc3jOo0eI/AAAAAAAAOv0/7UMisdT-YSk/s1024-Ic42/snapshot1.png "Horizontal Box")
 
 ## Horizontal box + items centered
     .horizontal-box.align-items-center {
        box: 'horizontal center';
     }
-[Horizontal Box Items Centered](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154376601549874 "Horizontal Box Items Centered")
+[Horizontal Box Items Centered](https://lh3.googleusercontent.com/-Q2Umh0TOeBE/VoCc4X-BvDI/AAAAAAAAOv8/sLsPCjvSQOc/s1016-Ic42/snapshot2.png "Horizontal Box Items Centered")
 
 ## Horizontal box + items centered at the bottom
     .horizontal-box.align-items-bottom-center {
        box: 'horizontal bottom center';
     }
-[Horizontal Box Items Centered at Bottom](https://picasaweb.google.com/101602063220654343081/FlexboxSnapshots#6233154385448014018 "Horizontal Box Items Centered at Bottom")
+[Horizontal Box Items Centered at Bottom](https://lh3.googleusercontent.com/-ldkAKXJxMEk/VoCc447MEMI/AAAAAAAAOwA/vugH4TyvQx4/s1024-Ic42/snapshot3.png "Horizontal Box Items Centered at Bottom")
 
 ## Contributing
 ## Changelog
