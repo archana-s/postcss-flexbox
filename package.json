@@ -1,14 +1,15 @@
 {
-  "name": "flexbox",
+  "name": "postcss-flexbox",
   "version": "1.0.0",
-  "description": "Flexbox layouts",
+  "description": "Flexbox layouts made easy with PostCSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "flexbox",
-    "layout"
+    "layouts",
+    "postcss"
   ],
   "author": "Archana Sankaranarayanan",
   "license": "MIT",
