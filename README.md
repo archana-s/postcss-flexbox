@@ -4,7 +4,7 @@ PostCSS Flexbox provides an easy to use option for using CSS3 Flexbox layouts. T
 ## Installation
 
 ## Usage
-CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are a lot of examples to show how this works.
+CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works.
 
 postcss-flexbox offers 2 props to set on a selector:
 
@@ -49,14 +49,92 @@ postcss-flexbox offers 2 props to set on a selector:
     .horizontal-box.align-items-center {
        box: 'horizontal center';
     }
-[Horizontal Box Items Centered](https://lh3.googleusercontent.com/-Q2Umh0TOeBE/VoCc4X-BvDI/AAAAAAAAOv8/sLsPCjvSQOc/s1016-Ic42/snapshot2.png "Horizontal Box Items Centered")
+![Horizontal Box Items Centered](https://lh3.googleusercontent.com/-Q2Umh0TOeBE/VoCc4X-BvDI/AAAAAAAAOv8/sLsPCjvSQOc/s1016-Ic42/snapshot2.png "Horizontal Box Items Centered")
 
 ## Horizontal box + items centered at the bottom
     .horizontal-box.align-items-bottom-center {
        box: 'horizontal bottom center';
     }
-[Horizontal Box Items Centered at Bottom](https://lh3.googleusercontent.com/-ldkAKXJxMEk/VoCc447MEMI/AAAAAAAAOwA/vugH4TyvQx4/s1024-Ic42/snapshot3.png "Horizontal Box Items Centered at Bottom")
+![Horizontal Box Items Centered at Bottom](https://lh3.googleusercontent.com/-ldkAKXJxMEk/VoCc447MEMI/AAAAAAAAOwA/vugH4TyvQx4/s1024-Ic42/snapshot3.png "Horizontal Box Items Centered at Bottom")
+
+## Horizontal box + items with space between
+    .horizontal-box.align-items-space-between {
+      box: 'horizontal space-between';
+    }
+![Horizontal Box with space between](https://lh3.googleusercontent.com/-7CGd7I_CmeI/VoCfpUBJ9MI/AAAAAAAAOw0/AOdArcV--j4/s1016-Ic42/snapshot4.png "Horizontal box with space between items")
+
+## Horizontal box + space around items
+    .horizontal-box.align-items-space-around {
+      box: 'horizontal space-around';
+    }
+![Horizontal Box with space around](https://lh3.googleusercontent.com/-kKDwSrYOPkU/VoChEgjw4fI/AAAAAAAAOxE/gzSvwOnv0og/s1018-Ic42/snapshot5.png "Horizontal box with space around items")
+
+## Horizontal Box + align items bottom right
+    .horizontal-box.align-items-bottom-right {
+      box: 'horizontal bottom right';
+    }
+![Horizontal Box with items in bottom right and items](https://lh3.googleusercontent.com/-641BL1qkDKs/VoCiW8RLCgI/AAAAAAAAOxQ/ufAy18jQ92M/s1018-Ic42/snapshot6.png "Horizontal box with items aligned bottom right")
+
+## Horizontal Box with items in the ratio 1:2:auto
+    .horizontal-box {
+      box: 'horizontal';
+    }
+
+    .first {
+      box-item: 'flex-1';
+    }
+
+    .second {
+      box-item: 'flex-2';
+    }
+![Horizontal Box with items 1:2:auto](https://lh3.googleusercontent.com/-GMt9tFFaavE/VoClKYn8cnI/AAAAAAAAOxs/5RuoFcH7vnk/s1016-Ic42/snapshot7.png "Horizontal box with items in 1:auto:auto")
+
+## Horizontal Box : align items individually
+    .horizontal-box{
+      box: 'horizontal';
+    }
+    .first, .second, .third, .fourth {
+      box-item: 'flex-1';
+    }
+    .first {
+      box-item: 'top';
+    }
+    .second {
+      box-item: 'center';
+    }
+    .third {
+      box-item: 'stretch';
+    }
+    .fourth {
+      box-item: 'bottom';
+    }
+![Horizontal Box with items aligned individually](https://lh3.googleusercontent.com/-M6Whv0ekXJc/VoCmXPxgGCI/AAAAAAAAOx4/6VSn7cuCNkU/s1016-Ic42/snapshot8.png "Horizontal box with items aligned individually")
+
+## Horizontal box wrap items
+    .horizontal-box {
+      box: 'horizontal wrap';
+    }
+![Horizontal Box with items wrapped for smaller widths](https://lh3.googleusercontent.com/-rUa839zO1fA/VoCp14NQbZI/AAAAAAAAOyE/1tJnDZ3x1hs/s376-Ic42/snapshot9.png "Horizontal box with items wrapped for smaller widths")
+
+## Vertical box with items in ratio auto:1:auto
+    .vertical-box {
+      box: 'vertical';
+    }
+    .second {
+      box-item: 'flex-1';
+    }
+![Vertical Box with items auto:1:auto](https://lh3.googleusercontent.com/-EHVdgtYCCGk/VoCqwOvi2UI/AAAAAAAAOyM/hP-BrtyYwBw/s512-Ic42/snapshot10.png "Vertical Box")
+
+## Vertical box with fullbleed item
+    .vertical-box {
+      box: 'vertical';
+    }
+
+    .fullbleed {
+      box-item: 'flex-1';
+    }
+![Vertical Box with one fullbleed item](https://lh3.googleusercontent.com/-iO2WxZJB7tQ/VoCr3py-M_I/AAAAAAAAOyY/MJ0CNj0ogYQ/s512-Ic42/snapshot11.png "Vertical box with fullbleed item")
 
 ## Contributing
-## Changelog
-## License
+## [Changelog] (./CHANGELOG.md "Changelog")
+## [License](./LICENSE "License")

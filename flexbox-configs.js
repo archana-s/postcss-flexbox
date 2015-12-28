@@ -216,31 +216,37 @@ module.exports = {
     '-webkit-flex: 6',
     'flex: 6'
   ],
+
   'flex-7': [
     '-ms-flex: 7',
     '-webkit-flex: 7',
     'flex: 7'
   ],
+
   'flex-8': [
     '-ms-flex: 8',
     '-webkit-flex: 8',
     'flex: 8'
   ],
+
   'flex-9': [
     '-ms-flex: 9',
     '-webkit-flex: 9',
     'flex: 9'
   ],
+
   'flex-10': [
     '-ms-flex: 10',
     '-webkit-flex: 10',
     'flex: 10'
   ],
+
   'flex-11': [
     '-ms-flex: 11',
     '-webkit-flex: 11',
     'flex: 11'
   ],
+
   'flex-12': [
     '-ms-flex: 12',
     '-webkit-flex: 12',
