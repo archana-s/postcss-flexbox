@@ -40,16 +40,17 @@ postcss-flexbox offers 2 props to set on a selector:
    7. stretch
    8. flex-auto
    9. flex-1 ... flex-12
+   10. flex-none
 
 ### Horizontal box
     .horizontal-box {
-      box: 'horizontal';
+      box: horizontal;
     }
 ![HorizontalBox](https://lh3.googleusercontent.com/-aSnIdPAty78/VoCc3jOo0eI/AAAAAAAAOv0/7UMisdT-YSk/s1024-Ic42/snapshot1.png "Horizontal Box")
 
 ## Horizontal box + items centered
     .horizontal-box.align-items-center {
-       box: 'horizontal center';
+       box: horizontal center;
     }
 ![Horizontal Box Items Centered](https://lh3.googleusercontent.com/-Q2Umh0TOeBE/VoCc4X-BvDI/AAAAAAAAOv8/sLsPCjvSQOc/s1016-Ic42/snapshot2.png "Horizontal Box Items Centered")
 

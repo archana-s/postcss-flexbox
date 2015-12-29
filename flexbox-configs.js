@@ -1,7 +1,6 @@
 module.exports = {
   'box': [
     'display: flex',
-    'display: -moz-box',
     'display: -ms-flexbox',
     'display: -webkit-flex'
   ],
@@ -9,15 +8,13 @@ module.exports = {
   'horizontal' : [
     'flex-direction: row',
     '-webkit-flex-direction: row',
-    '-ms-flex-direction: row',
-    '-moz-flex-direction: row'
+    '-ms-flex-direction: row'
   ],
 
   'vertical': [
     'flex-direction: column',
     '-webkit-flex-direction: column',
-    '-ms-flex-direction: column',
-    '-moz-flex-direction: column',
+    '-ms-flex-direction: column'
   ],
 
   'horizontal-reverse': [
