@@ -1,33 +1,15 @@
 .horizontal-box-items-centered {
   display: flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  -moz-flex-direction: column;
 }
 
 .box2 {
   display: flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   flex-direction: row;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  -moz-flex-direction: row;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-align: end;
-  -webkit-align-items: flex-end;
   align-items: flex-end;
 }
 
 .second {
-  -ms-align-self: stretch;
-  -webkit-align-self: stretch;
   align-self: stretch;
 }

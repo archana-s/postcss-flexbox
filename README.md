@@ -4,6 +4,10 @@ PostCSS Flexbox provides an easy to use option for using CSS3 Flexbox layouts. T
 ## Installation
 npm install postcss-flexbox
 
+## Dependencies
+[PostCSS Autoprefixer](https://github.com/postcss/autoprefixer)
+This is required for appropriate vendor prefixing for Flexbox. Flexbox is not supported without these prefixes in some browsers yet. Please refer [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) for more detailed information.
+
 ## Usage
 CSS3 Flexbox lets you set the layout for container divs: horizontal alignment of children or vertical. The children can in turn choose the space they occupy in the container and the alignment as well. Below are examples to show how this works. [Here is a detailed blogpost I wrote on building using Flexbox in Coursera's tech blog](https://tech.coursera.org/blog/2015/06/23/flexbox-at-work/)
 
