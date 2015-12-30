@@ -1,3 +1,6 @@
+# 1.0.2 - 2015-12-29
+Removed all vendor prefixes. Developers should use autoprefixer after this plugin to ensure all the vendor prefixes are added. 
+
 # 1.0.1 - 2015-12-28
 
 Removed '' used around values.
