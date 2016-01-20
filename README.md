@@ -16,6 +16,8 @@ postcss-flexbox offers 2 props to set on a selector:
 
 1. box : This is to make a HTML element a flexbox
    Below are the values it can take. Please provide these values separated by a empty space.
+   Provide a combination of these values and see the wonders of Flexbox working effortlessly. 
+
    One of the following options is necessary to specify the direction of laying things out:
    1. horizontal
    2. horizontal-reverse
@@ -33,9 +35,12 @@ postcss-flexbox offers 2 props to set on a selector:
    8. space-between
    9. wrap
    10. wrap-reverse
-
+   
 2. box-item : This is to align or adjust size of elements within a flexbox.
    Here are the list of options. Please specify them with a space between.
+   You can provide the alignment option like top or right along with the size option like flex-1. 
+   Use a combination of these. 
+
    1. top
    2. bottom
    3. right
