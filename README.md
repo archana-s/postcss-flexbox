@@ -25,6 +25,7 @@ postcss-flexbox offers 2 props to set on a selector:
    4. vertical-reverse
 
    Here are the rest of the options which will apply based on the direction:
+   
    1. top
    2. bottom
    3. left
