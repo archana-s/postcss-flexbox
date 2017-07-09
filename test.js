@@ -13,11 +13,12 @@ var outputCSS = require("./test/output.css");
 function run(t, input, output, opts) {
   return postcss([ flexbox(opts) ]).process(input)
     .then(function(result) {
-        t.same(result.css, output);
-        t.same(result.warnings().length, 0);
+        t.deepEqual(result.css, output);
+        t.deepEqual(result.warnings().length, 0);
     });
 }
 
 test('converts box and box-item to flexbox props and values', function(t) {
   return run(t, inputCSS, outputCSS, { });
-});
+})
+
