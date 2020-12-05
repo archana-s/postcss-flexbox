@@ -2,6 +2,10 @@ module.exports = {
   'box': [
     'display: flex'
   ],
+  
+  'inline-box': [
+    'display: inline-flex'
+  ],
 
   'horizontal' : [
     'flex-direction: row'
